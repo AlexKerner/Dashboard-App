@@ -1,26 +1,25 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter } from 'react-router-dom';
+import { AppThemeProvider, DrawerProvider } from './shared/contexts';
+import { Login, SideBar } from './shared/components';
+import { AppRoutes } from './routes';
+import { AuthProvider } from './shared/contexts';
 
-function App() {
+export const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+    <AuthProvider>
+      <AppThemeProvider>
+        <Login> 
+          <DrawerProvider>
+            <BrowserRouter>
 
-export default App;
+              <SideBar>
+                <AppRoutes />
+              </SideBar>
+
+            </BrowserRouter>
+          </DrawerProvider>
+        </Login>
+      </AppThemeProvider>
+    </AuthProvider>
+  );
+};

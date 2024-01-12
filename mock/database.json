@@ -1,0 +1,141 @@
+{
+  "people": [
+    {
+      "id": 1,
+      "fullname": "Alexander",
+      "email": "alex@aa.com",
+      "cityId": 3
+    },
+    {
+      "id": 2,
+      "fullname": "Yen",
+      "cityId": 2,
+      "email": "yen@aa.com"
+    },
+    {
+      "id": 3,
+      "fullname": "Cris",
+      "email": "cris@aa.com",
+      "cityId": 5
+    },
+    {
+      "id": 4,
+      "fullname": "John",
+      "cityId": 4,
+      "email": "john@aa.com"
+    },
+    {
+      "id": 6,
+      "cityId": 4,
+      "email": "const@aa.com",
+      "fullname": "Constantine"
+    },
+    {
+      "id": 7,
+      "fullname": "Ana",
+      "cityId": 2,
+      "email": "ana@aa.com"
+    },
+    {
+      "id": 9,
+      "fullname": "Rachel",
+      "cityId": 4,
+      "email": "rachel@aa.com"
+    },
+    {
+      "id": 12,
+      "fullname": "Richard",
+      "cityId": 2,
+      "email": "richard@aa.com"
+    },
+    {
+      "id": 13,
+      "fullname": "Kay",
+      "cityId": 3,
+      "email": "kay@aa.com"
+    },
+    {
+      "id": 14,
+      "fullname": "Pirim",
+      "email": "pirim@aa.com",
+      "cityId": "4"
+    },
+    {
+      "id": 15,
+      "fullname": "Cintra",
+      "email": "cin@a.com",
+      "cityId": "6"
+    },
+    {
+      "id": 16,
+      "fullname": "Geralt ",
+      "email": "geralt.aa@aa.com",
+      "cityId": "3"
+    },
+    {
+      "id": 17,
+      "fullname": "Elijah",
+      "email": "elijah@aa.com",
+      "cityId": 3
+    },
+    {
+      "cityId": 7,
+      "email": "damon@aa.com",
+      "fullname": "Damon",
+      "id": 18
+    },
+    {
+      "id": 19,
+      "fullname": "Veronica",
+      "email": "vava@aa.com",
+      "cityId": 8
+    },
+    {
+      "fullname": "Precios",
+      "email": "precios@aa.com",
+      "cityId": 4,
+      "id": 20
+    }
+  ],
+  "cities": [
+    {
+      "id": 1,
+      "name": "New york"
+    },
+    {
+      "name": "Dubai",
+      "id": 2
+    },
+    {
+      "name": "Los Angeles",
+      "id": 3
+    },
+    {
+      "name": "Chicago",
+      "id": 4
+    },
+    {
+      "name": "Houston",
+      "id": 5
+    },
+    {
+      "name": "Cintra",
+      "id": 6
+    },
+    {
+      "name": "Toronto",
+      "id": 7
+    },
+    {
+      "name": "Istambul",
+      "id": 8
+    },
+    {
+      "id": 9,
+      "name": "Sereno"
+    }
+  ],
+  "auth": {
+    "acessToken": "kasdkaskdaskdkasd"
+  }
+}
